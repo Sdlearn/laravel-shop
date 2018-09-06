@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b268b3958af7cdeb2b406624dfaa32f",
+    "content-hash": "5849fab452945c8f3e829f3305cb7095",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -588,16 +588,16 @@
         },
         {
             "name": "encore/laravel-admin",
-            "version": "v1.5.18",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/z-song/laravel-admin.git",
-                "reference": "49553f7f4cd2ef14583c65427b9deb663e2e5c9c"
+                "reference": "3264d1fb47c89afa3af4248ab8a5501e145581a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/49553f7f4cd2ef14583c65427b9deb663e2e5c9c",
-                "reference": "49553f7f4cd2ef14583c65427b9deb663e2e5c9c",
+                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/3264d1fb47c89afa3af4248ab8a5501e145581a3",
+                "reference": "3264d1fb47c89afa3af4248ab8a5501e145581a3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -610,7 +610,7 @@
                 "doctrine/dbal": "2.*",
                 "laravel/framework": "~5.5",
                 "php": ">=7.0.0",
-                "symfony/dom-crawler": "~3.1"
+                "symfony/dom-crawler": "~3.1|~4.0"
             },
             "require-dev": {
                 "fzaninotto/faker": "~1.4",
@@ -661,7 +661,7 @@
                 "grid",
                 "laravel"
             ],
-            "time": "2018-08-10T08:09:04+00:00"
+            "time": "2018-09-06T04:57:34+00:00"
         },
         {
             "name": "endroid/installer",
@@ -5816,7 +5816,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "encore/laravel-admin": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
